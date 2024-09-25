@@ -1,0 +1,16 @@
+<div>
+    <div class="operation">
+        <p class="calcul">Calcul = {{ firstNumber }} {{symbol}} {{ secondNumber }}</p>
+        <p class="result">Result = {{ resultNumber }}</p>
+    </div>
+    <div>
+        <button (click)="randomFirstNum ()">Random First</button>
+        <button (click)="randomSecondNum ()">Random Second</button>
+    </div>
+    <div>
+        <button (click)="changeSymbol('+')">+</button>
+        <button (click)="changeSymbol('-')">-</button>
+        <button (click)="changeSymbol('/')">/</button>
+        <button (click)="changeSymbol('*')">*</button>
+    </div>
+</div>
